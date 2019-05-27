@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+
+    <title>GAME "PAPER, STONE, SCISSORS"</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <h1>GAME "PAPER, STONE, SCISSORS"</h1>
+
+    <div class="select">
+
+        <h2>Please, make a choice:</h2>
+
+        <img data-option="paper" class="first" src="./src/img/paper.png" alt="" title="Paper">
+
+        <img data-option="stone" src="./src/img/stone.png" alt="" title="Stone">
+
+        <img data-option="scissors" src="./src/img/scissors.png" alt="" title="Scissors">
+
+    </div>
+
+    <button class="start">Let's play!</button>
+
+    <div class="panel left-panel">
+        <h2>Game result</h2>
+        <p>Your choice: <span data-summary="your-choice">none</span></p>
+        <p>Computer choice: <span data-summary="ai-choice">none</span></p>
+        <p>Victorious player: <span data-summary="who-wins">none</span></p>
+    </div>
+
+    <div class="panel right-panel">
+        <h2>Actual results</h2>
+        <p class="numbers">Number of games: <span>0</span></p>
+        <p class="wins">Wins: <span>0</span></p>
+        <p class="losses">Losses: <span>0</span></p>
+        <p class="draws">Ties: <span>0</span></p>
+    </div>
+
+    <script src="./scripts/scripts.js"></script>
+</body>
+
+</html>
