@@ -10,7 +10,7 @@ The project lets the user to play the "Paper, stone, scissors" game in the brows
 
 Added font(s) used in the project are the following:
 
-- [Roboto](https://fonts.google.com/specimen/Roboto), 400, 700,latin extended, [Apache License, Version 2.0(click to read the license)](http://www.apache.org/licenses/LICENSE-2.0).
+- [Roboto](https://fonts.google.com/specimen/Roboto), 400, 700, latin extended, [Apache License, Version 2.0(click to read the license)](http://www.apache.org/licenses/LICENSE-2.0).
 
 All taken from [Google Fonts](https://fonts.google.com/).
 
